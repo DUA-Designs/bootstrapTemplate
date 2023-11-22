@@ -1,0 +1,198 @@
+*{
+	font-family: 'Nunito', sans-serif;
+}
+.row i{
+	color: #e03a3c;
+	font-size: 2rem;
+}
+
+ #homeContainer  {
+ 	background: linear-gradient(90deg, rgba(0,50, 60, 0.52), rgba(50, 19, 93, 0.73)),url(https://images.pexels.com/photos/6476563/pexels-photo-6476563.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  transition: 0.4s linear;
+ }
+  #homeContainer .col-10{
+  	transition: 0.4s linear;
+
+  	top: 20vw;
+  }
+
+ 
+  
+ #sec3 i{
+ 	font-size: 1rem;
+
+ }
+  #sec3 ul{
+  	list-style: none;
+  }
+
+
+ /* Gallery css starts here */
+.gallery-title
+{
+    font-size: 36px;
+    color: teal;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+  content: ' ';
+  position: absolute;  
+  width: 8%;
+  height:48px;
+  left: 46%;
+ border-bottom:2px solid teal;
+ 
+ 
+ 
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+ #team{
+ 	position: relative;
+ 	top: -140px;
+ 	width: 220px;
+ 	display: none;
+ }
+ #team #teamSocials{
+ 	position: absolute;
+ 	left:30px;
+
+ }
+
+ #team i{
+ 	font-size: 1.3rem;
+ 	color:white;
+ 	width: 35px;
+ 	height: 35px;
+ 	background-color: red;
+ 	display: grid;
+ 	align-items: center;
+ 	cursor: pointer;
+ 	border-radius: 50%;
+
+ }
+ #team i:hover{
+ 	background-color: black;
+ }
+
+ 
+ #useful i{
+ 	font-size: 0.6rem;
+ 	color: white;
+ }
+ #useful li{
+ 	width: fit-content;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: space-between;
+
+ }
+ 
+ #useful li a{text-decoration: none;
+ 	color:white;
+
+ }
+  #useful li  span {
+  	opacity: 0.7;
+  }
+ #useful li:hover span  {
+ 	opacity:1;
+
+ }
+ #footLinks i{
+ 	font-size:1rem;
+ 	width: 30px;
+ 	height: 30px;
+ color:white;
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+
+ background-color: #212529;
+ 
+ 
+ }
+ #footLinks i:hover{
+ 	background-color : #b02a37;
+ }
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+ 
+
+ #clients img{
+
+ 	width: 80px;
+ 	height: 30px;
+ }
+ 
+
+@media (max-width: 767.98px) {
+	#homeContainer {
+		height: 50vh;
+	}
+	#homeContainer .row{
+		text-align: center;
+
+	}
+	#homeContainer .row .col-10{margin: 0 auto;
+		top: 30vw;
+		 
+	}
+	#homeContainer h1 {
+	 
+			font-size: 15px;}
+				#homeContainer h3 {
+					font-size: 12px;
+				}
+		 
+		#homeContainer a{
+			font-size: 8px;
+
+		}
+	
+	 }
+ 
